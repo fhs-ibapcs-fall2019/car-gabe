@@ -1,10 +1,29 @@
-/**
- * class to capture relevant concept of a Car
- *
- * @author Tim Gesell
- * @version 08/18/2019
- */
 public class Car
 {
-
+    private String manufacturer;
+    private String color;
+    private double price;
+    private int horsepower;
+    
+    public Car(String m, String c, double p, int h)
+    {
+        manufacturer = m;
+        color = c;
+        price = p;
+        horsepower = h;
+    }
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
